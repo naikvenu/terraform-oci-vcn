@@ -1,4 +1,4 @@
-= Terraform VCN for Oracle Cloud Infrastructure [![Deploy to Oracle Cloud](https://oci-resourcemanager-plugin.plugins.oci.oraclecloud.com/latest/deploy-to-oracle-cloud.svg)](https://cloud.oracle.com/resourcemanager/stacks/create?zipUrl=https://github.com/oracle-terraform-modules/terraform-oci-vcn/archive/refs/tags/v1.0.4.zip)
+= Terraform VCN for Oracle Cloud Infrastructure 
 
 :idprefix:
 :idseparator: -
@@ -31,6 +31,7 @@
 :uri-terraform-oci: https://www.terraform.io/docs/providers/oci/index.html
 :uri-terraform-options: {uri-docs}/terraformoptions.adoc
 :uri-terraform-oci-examples: https://github.com/terraform-providers/terraform-provider-oci/tree/master/examples
+:uri-one-click-deploy: https://cloud.oracle.com/resourcemanager/stacks/create?zipUrl=https://github.com/oracle-terraform-modules/terraform-oci-vcn/archive/refs/tags/v1.0.4.zip
 
 The {uri-repo}[Terraform VCN] for {uri-oci}[Oracle Cloud Infrastructure] (OCI) provides a reusable Terraform module that provisions a minimal VCN on OCI.
 
@@ -47,6 +48,8 @@ It also controls the Default Security List, with a *Lockdown mode* that can be e
 Custom route rules can be added to the two route tables created by the module.
 
 This module is primarily meant to be reusable to create more advanced infrastructure on {uri-oci}[OCI] either manually in the OCI Console or by extending the Terraform code.
+
+== {uri-one-click-deploy}[Deploy to Oracle Cloud]
 
 == {uri-docs}[Documentation]
 
